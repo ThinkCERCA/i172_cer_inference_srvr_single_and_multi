@@ -5,4 +5,22 @@ download the claim Xlnet model form google drive: https://drive.google.com/drive
 
 Window:
 
-Put model and py file in the same directory. Make sure each model has the right py file. Using cmd find the file directory and run python  
+Put model and py file in the same directory. Make sure each model has the right py file. Using cmd find the file directory and run python claim-xlnet-predict.py.
+
+
+Testing:
+
+Start a new terminal or cmd, run
+curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{\"content\":\"the python\"}"
+
+Put anything you want to test in content instead the python
+
+
+linux:
+
+Put model and py file in the same directory. Make sure each model has the right py file. Run nohup python claim-xlnet-predict.py.
+
+Testing:
+
+curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{"content":"the python"}"
+
