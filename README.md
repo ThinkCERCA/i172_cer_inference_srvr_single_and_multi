@@ -5,4 +5,4 @@ download the claim Xlnet model form google drive: https://drive.google.com/drive
 
 Window:
 
-Find the directory of model, run python 
+Put model and py file in the same directory. Make sure each model has the right py file. Using cmd find the file directory and run python  
