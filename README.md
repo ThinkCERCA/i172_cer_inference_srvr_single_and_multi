@@ -11,7 +11,7 @@ Put model and py file in the same directory. Make sure each model has the right 
 $Testing$:
 
 Start a new terminal or cmd, run
-curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{\"content\":\"the python\"}"
+***curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{\"content\":\"the python\"}"***
 
 Put anything you want to test in content instead the python
 
@@ -22,5 +22,5 @@ Put model and py file in the same directory. Make sure each model has the right 
 
 $Testing$:
 
-curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{"content":"the python"}"
+Run ***curl -X POST http://localhost:8008/predict -H "Content-Type:application/json" -d "{"content":"the python"}"***
 
