@@ -1,6 +1,6 @@
 # claim-and-multi-label-inference-testing
 
-ppip install -r requirements.txt
+pip install -r requirements.txt
 
 Download the **multi-label model** from google drive: https://drive.google.com/drive/u/0/folders/1alMb6xmH-Cx3VJRKfYW4UJ18bHeFcmQS  or 
 
